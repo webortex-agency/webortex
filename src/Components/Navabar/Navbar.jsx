@@ -81,7 +81,7 @@ const Navbar = () => {
   const navbarClasses = `
     ${
       isScrolled
-        ? "md:fixed md:left-auto md:right-auto md:px-0 md:mx-0 md:bg-[#292930] shadow-none md:rounded-full scroll-smooth"
+        ? "md:fixed md:left-auto md:right-auto md:px-0 md:mx-0 py-2 md:bg-[#292930] shadow-none md:rounded-full scroll-smooth"
         : "bg-transparent"
     }
     transition-all duration-300 ease-in-out
@@ -124,14 +124,14 @@ const Navbar = () => {
       maxWidth="lg"
       className="md:flex md:justify-center relative z-30 md:z-999"
     >
-      <div className="mt-3 pt-2 md:flex md:justify-center">
+      <div className="mt-3 md:mt-5 pt-2 md:flex md:justify-center">
         <div className={navbarClasses} style={{ zIndex: 999 }}>
           <Toolbar className="align-middle">
-            <Link to="/" className="mr-24">
+            <Link to="/" className="mr-12">
               <Avatar
                 alt="64 FRAMEZ"
                 src={logoImg}
-                className="rounded-none w-[30%] h-auto"
+                className="rounded-none w-[30%] h-auto ml-7"
                 onClick={scrollToTop}
               />
             </Link>

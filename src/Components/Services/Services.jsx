@@ -187,8 +187,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  We have extensive graphic design experience, and we provide
-                  high-quality, more accurate outcomes.
+                  Building responsive, scalable websites tailored to your
+                  business needs.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -228,8 +228,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  Our motion graphics bring your ideas to life with dynamic
-                  animations.{" "}
+                  Designing user-friendly interfaces that create seamless and
+                  engaging experiences.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -269,8 +269,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  We create innovative and stylish interior spaces tailored to
-                  your needs.
+                  Creating targeted ad campaigns that drive traffic and boost
+                  conversions.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -310,8 +310,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  Our web designs are user-friendly and visually stunning,
-                  enhancing your online presence.
+                  Growing your brand with strategic social media content and
+                  engagement.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -351,8 +351,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  We capture your moments with professional and creative
-                  photography.
+                  Developing high-performance apps that deliver a smooth user
+                  experience across devices.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -392,8 +392,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  Our main goal is to provide 100% results and maintain social
-                  media with high precision.
+                  Launching a minimum viable product to quickly validate your
+                  business idea.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -433,8 +433,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  We have extensive expertise editing videos, and we provide
-                  amazing insights into your thoughts.
+                  Crafting interactive prototypes to visualize and test your app
+                  or website’s design.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -474,8 +474,8 @@ const Services = () => {
                   variant="body2"
                   className="font-poppins font-light text-[14px] text-[#D0D0D0]"
                 >
-                  We produce immersive 3D cinematography that captivates and
-                  engages viewers.
+                  Optimizing your site to rank higher in search engines and
+                  attract more organic traffic.
                 </Typography>
               </CardContent>
             </CardActionArea>
