@@ -26,7 +26,7 @@ const App = () => {
           <ScrollToTop />
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<LandingPage />} />
+            <Route exact path="/webortex/" element={<LandingPage />} />
             <Route exact path="/sip" element={<SIP />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
