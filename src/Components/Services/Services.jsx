@@ -122,7 +122,7 @@ const Services = () => {
 
   return (
     <div className="w-full relative z-10" id="services">
-      <Box className="w-full mt-20 md:mt-0 h-[350px] md:h-[250px] blur-[100px] absolute z-[-99] opacity-60 rounded-full bg-gradient-to-r from-[#171717] via-[#f087ff5b] to-[#171717] "></Box>
+      {/* <Box className="w-full mt-20 md:mt-0 h-[350px] md:h-[250px] blur-[100px] absolute z-[-99] opacity-60 rounded-full bg-gradient-to-r from-[#171717] via-[#f087ff5b] to-[#171717] "></Box> */}
 
       <Container maxWidth="lg" className="my-5 p-5 flex flex-col">
         <Box className="flex flex-col md:flex-row my-3 py-2 md-my-2 md:py-1">
