@@ -5,11 +5,11 @@ import Insta from "../../assets/Social/instagram.png";
 import fb from "../../assets/Social/facebook.png";
 import x from "../../assets/Social/twitter.png";
 import { Handshake } from "@mui/icons-material";
-import teamMember1 from "../../assets/TeamMembers/pavan.jpg";
-import teamMember2 from "../../assets/TeamMembers/vinay.jpg";
+import teamMember1 from "../../assets/TeamMembers/sisi.jpg";
+import teamMember2 from "../../assets/TeamMembers/gnana.jpeg";
 import teamMember5 from "../../assets/TeamMembers/indu.jpg";
 import teamMember6 from "../../assets/TeamMembers/rishitha.jpg";
-import teamMember7 from "../../assets/TeamMembers/Prathyusha.jpg";
+import teamMember7 from "../../assets/TeamMembers/revanth.jpg";
 
 const cardVariants = {
   offscreen: {
@@ -89,7 +89,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Angeri Pavan Reddy
+                Sisindri Singamsetti
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Co-Founder
@@ -154,7 +154,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                CH Vinay
+                K Gnana Sekhar
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Co-Founder
@@ -219,7 +219,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Hitesh Mehra
+                A Tharun
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Creative Director
@@ -284,7 +284,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Pruthvi Raj
+                Jayadeep Reddy
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Project Manager
@@ -349,7 +349,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Indu T
+                K Sai Sandeep
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Creative Director
@@ -414,7 +414,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Rishitha
+                Ashok
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Creative Director
@@ -479,7 +479,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Prathyusha
+                Y Revanth Kumar
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Creative Director
@@ -544,7 +544,7 @@ const TeamMobile = () => {
             ></Grid>
             <Box>
               <Typography className="pt-2 font-bold font-poppins">
-                Rishitha
+                K Sri Chaithanya
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
                 Web Designer

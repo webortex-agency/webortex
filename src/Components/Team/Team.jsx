@@ -383,54 +383,7 @@ const Team = () => {
           </Box>
         </div>
         {/* Team Member 06 */}
-        {/* Team Member 07 */}
-        <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
-          <img
-            src={TeamImg8}
-            alt="Team Member 01"
-            className="rounded-t-lg"
-            style={{
-              height: "220px",
-              width: "100%",
-              objectFit: "cover",
-            }}
-          />
 
-          <hr className="border-iconBgColor border-b-[1.6px] border-solid mt-5 mb-2 w-[60px] mx-auto" />
-
-          <Box>
-            <Typography className="pt-2 font-semibold font-poppins text-lg">
-              A Jeevan Reddy
-            </Typography>
-            <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Web Developer
-            </Typography>
-          </Box>
-          <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
-            <IconButton>
-              <Link href="https://www.instagram.com/">
-                <img src={Insta} alt="Instagram" width={25}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
-            <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
-                <img src={x} alt="twitter" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-          </Box>
-        </div>
-        {/* Team Member 08 */}
         {/* Team Member 09 */}
         <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
           <img
