@@ -1,10 +1,25 @@
-import React from "react";
+
 import WEB1 from "../../assets/About/img1.png";
 import WEB2 from "../../assets/About/img2.svg";
 import WEB3 from "../../assets/About/img3.png";
 import { Container } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+import Typography from '@mui/material/Typography';
+import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import FeedbackIcon from '@mui/icons-material/Feedback';
+import PlaylistAddCheckCircleIcon from '@mui/icons-material/PlaylistAddCheckCircle';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 
+const AnimatedTimelineItem = TimelineItem;
 const SIP = () => {
   const navigate = useNavigate();
 
@@ -53,18 +68,19 @@ const SIP = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-3/5 md:pl-14 flex flex-col justify-center self-center mt-7 md:mt-0">
             <h2 className="font-poppins text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-tight text-white text-center md:text-left">
-              Why Choose 64 Framez?
+              Why Choose Webortex?
             </h2>
             <div className="font-poppins text-sm md:text-base lg:text-lg font-light leading-snug text-white mt-5 text-center md:text-left px-10 md:px-0">
               <div className="mb-4">
-                Passion for Excellence: We are passionate about what we do, and
-                it shows in our work. Every project is an opportunity to push
-                the boundaries of creativity and deliver exceptional results.
+              Webortex’s Student Incubator Program bridges the gap between academic 
+              learning and real-world skills. We select talented BTech students, 
+              offering one-on-one training and opportunities to work on live projects,
+              ensuring they are industry-ready and well-prepared for their careers.
               </div>
               <div>
-                Tailored Solutions: We understand that every client is unique.
-                Our solutions are customized to meet your specific needs and
-                objectives, ensuring a perfect fit for your brand.
+               Objective: To develop practical skills in students while contributing 
+               to company growth through valuable projects.
+
               </div>
             </div>
 
@@ -93,15 +109,17 @@ const SIP = () => {
             </h2>
             <div className="font-poppins text-sm md:text-base lg:text-lg font-light leading-snug text-white mt-5 text-center md:text-left px-10 md:px-0">
               <div className="mb-4">
-                Collaborative Approach: We believe in working closely with our
-                clients, valuing their input, and fostering a collaborative
-                environment to achieve the best outcomes.
+              Unlike other programs, Webortex’s Student Incubator Program stands 
+              out by not only offering comprehensive hands-on training and mentorship 
+              but also doing so without charging a penny. In fact, we provide stipends 
+              to skilled participants, ensuring that talent is rewarded, not exploited. 
+              
               </div>
               <div>
-                Innovative Thinking: At 64 Framez, innovation is at the heart of
-                everything we do. We embrace new technologies, trends, and
-                techniques to stay ahead of the curve and deliver cutting-edge
-                designs.
+              While many competitors focus on theoretical learning or charge high fees, 
+              we emphasize real-world project experience, preparing students to meet industry 
+              demands with practical skills. Our unique combination of personalized training, 
+              real-time projects, and financial support sets us apart as a true partner in career development.
               </div>
             </div>
           </div>
@@ -113,45 +131,224 @@ const SIP = () => {
             />
           </div>
         </div>
-
-        <Container
-          maxWidth="md"
-          className="flex flex-wrap justify-between mt-16 md:mt-24 text-center"
+<hr  style={{marginTop:100}}/>
+<Container sx={{ marginBottom: 10, marginTop: 10 }}>
+      <Typography variant="h4" sx={{ color: "white", display: "flex", justifyContent: "center", marginBottom: 5 }}>
+        Program Phases
+      </Typography>
+      <Timeline position="alternate">
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
         >
-          <div className="w-1/2 md:w-1/4 p-2">
-            <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-              20+
-            </h2>
-            <p className="text-sm md:text-base text-textColor mt-2">
-              Year of Experience
-            </p>
-          </div>
-          <div className="w-1/2 md:w-1/4 p-2">
-            <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-              1,000+
-            </h2>
-            <p className="text-sm md:text-base text-textColor mt-2">
-              Project Done
-            </p>
-          </div>
-          <div className="w-1/2 md:w-1/4 p-2">
-            <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-              300+
-            </h2>
-            <p className="text-sm md:text-base text-textColor mt-2">
-              Satisfied Clients
-            </p>
-          </div>
-          <div className="w-1/2 md:w-1/4 p-2">
-            <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-              64
-            </h2>
-            <p className="text-sm md:text-base text-textColor mt-2">
-              Certified Awards
-            </p>
-          </div>
-        </Container>
-
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 1
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector />
+            <TimelineDot
+              sx={{
+                color: "#5A56E8",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <ReceiptLongIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2, color: "white" }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              Application & Selection
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 2
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector />
+            <TimelineDot
+              sx={{
+                color: "primary",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <SupervisorAccountIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2, color: "white" }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              One-on-One Training
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 3
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector />
+            <TimelineDot
+              sx={{
+                color: "#7F00FFB3",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <AccountTreeIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2 }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              Real-time Projects
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 4
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+            <TimelineDot
+              sx={{
+                color: "#5A56E8",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <IntegrationInstructionsIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2 }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              Project Evaluation & Integration
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 5
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector />
+            <TimelineDot
+              sx={{
+                color: "primary",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <PlaylistAddCheckCircleIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2 }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              Peer Mentorship Process
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+        <AnimatedTimelineItem
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: "white", fontSize: "20px" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            Phase 6
+          </TimelineOppositeContent>
+          <TimelineSeparator sx={{ height: "180px" }}>
+            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+            <TimelineDot
+              sx={{
+                color: "#7F00FFB3",
+                height: "70px",
+                width: "70px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <FeedbackIcon sx={{ height: "40px", width: "40px" }} />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '12px', px: 2 }}>
+            <Typography sx={{ color: "white", fontSize: "28px", marginTop: 7 }}>
+              Feedback & Certification
+            </Typography>
+          </TimelineContent>
+        </AnimatedTimelineItem>
+      </Timeline>
+    </Container>
+  <hr/>
         <div
           className="relative h-[45vh] w-full bg-cover bg-center rounded-[18px] my-16 md:my-24"
           style={{ backgroundImage: `url(${WEB3})` }}
