@@ -1,5 +1,6 @@
 import React from "react";
-import WEB2 from "../../assets/About/img2.svg";
+import WEB2 from "../../assets/Projects/Team_Garuda.png";
+import WEB1 from "../../assets/Projects/64Framez.png";
 import WEB3 from "../../assets/About/img3.png";
 import { Container, Typography } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
@@ -96,8 +97,8 @@ const Projects = () => {
             </div>
           </div>
           <div className="w-2/3 md:w-1/2 lg:w-2/5 p-3 sm:p-2 lg:p-0 self-center order-0 md:order-1">
-            <img
-              src={WEB2}
+            <img style={{border:"2px solid #2D2D2D"}}
+              src={WEB1}
               alt="64 Framez"
               className="rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 w-full h-auto"
             />

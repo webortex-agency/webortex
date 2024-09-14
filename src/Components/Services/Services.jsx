@@ -15,14 +15,14 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import KeyboardArrowRightTwoToneIcon from "@mui/icons-material/KeyboardArrowRightTwoTone";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 import { useNavigate } from "react-router-dom";
-import serviceImg1 from "../../assets/Services/picture-dynamic-color.svg";
-import serviceImg2 from "../../assets/Services/image 17.svg";
+import serviceImg1 from "../../assets/Services/serviceImg1.webp";
+import serviceImg2 from "../../assets/Services/6805599.webp";
 import serviceImg3 from "../../assets/Services/paint-kit-dynamic-color.svg";
 import serviceImg4 from "../../assets/Services/Webdev.svg";
-import serviceImg5 from "../../assets/Services/camera-dynamic-color.svg";
+import serviceImg5 from "../../assets/Services/ui-ux-design-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--web-browser-scene-creator-pack-development-illustrations-4972885.webp";
 import serviceImg6 from "../../assets/Services/digitalmarketing.png";
-import serviceImg7 from "../../assets/Services/image 15.svg";
-import serviceImg8 from "../../assets/Services/3d-dynamic-color.svg";
+import serviceImg7 from "../../assets/Services/images.png";
+import serviceImg8 from "../../assets/Services/rrr.png";
 
 const HoverCard = styled(Card)(({ theme }) => ({
   backgroundColor: "#292930",
@@ -170,7 +170,7 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg1}
+                image={serviceImg4}
                 alt="ServicesImg1"
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
@@ -211,7 +211,7 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg2}
+                image={serviceImg3}
                 alt="ServicesImg1"
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
@@ -252,7 +252,7 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg6}
+                image={serviceImg7}
                 alt="ServicesImg1"
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
@@ -293,7 +293,7 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg4}
+                image={serviceImg6}
                 alt="ServicesImg1"
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
@@ -334,8 +334,8 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg3}
                 alt="ServicesImg1"
+                image={serviceImg1}
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
               <CardContent className="mt-0 mx-1 gap-[14px] relative h-[145px]">
@@ -375,8 +375,8 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg5}
                 alt="ServicesImg1"
+                image={serviceImg8}
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
               <CardContent className="mt-0 mx-1 gap-[14px] relative h-[145px]">
@@ -416,8 +416,8 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg8}
                 alt="ServicesImg1"
+                image={serviceImg5}
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
               <CardContent className="mt-0 mx-1 gap-[14px] relative h-[145px]">
@@ -457,8 +457,8 @@ const Services = () => {
             <CardActionArea className="flex flex-col">
               <CardMedia
                 component="img"
-                image={serviceImg7}
                 alt="ServicesImg1"
+                image={serviceImg2}
                 className="cardImg mt-3 mx-5 w-[210px] h-[210px] justify-self-center"
               />
               <CardContent className="mt-0 mx-1 gap-[14px] relative h-[145px]">
