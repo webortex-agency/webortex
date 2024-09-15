@@ -7,7 +7,7 @@ import x from "../../assets/Social/twitter.png";
 import { Handshake } from "@mui/icons-material";
 import teamMember1 from "../../assets/TeamMembers/sisi.jpg";
 import teamMember2 from "../../assets/TeamMembers/gnana.jpeg";
-import teamMember5 from "../../assets/TeamMembers/indu.jpg";
+import teamMember5 from "../../assets/TeamMembers/rishitha.jpg";
 import teamMember6 from "../../assets/TeamMembers/rishitha.jpg";
 import teamMember7 from "../../assets/TeamMembers/revanth.jpg";
 

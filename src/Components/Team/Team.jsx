@@ -11,15 +11,15 @@ import { Handshake } from "@mui/icons-material";
 import Insta from "../../assets/Social/instagram.png";
 import fb from "../../assets/Social/facebook.png";
 import x from "../../assets/Social/twitter.png";
-import TeamImg1 from "../../assets/TeamMembers/sisi.jpg";
-import TeamImg2 from "../../assets/TeamMembers/gnana.jpeg";
+import TeamImg2 from "../../assets/TeamMembers/sisi.jpg";
+import TeamImg1 from "../../assets/TeamMembers/gnanaa.jpg";
 import TeamImg3 from "../../assets/TeamMembers/pavan.jpg";
 import TeamImg4 from "../../assets/TeamMembers/rishitha.jpg";
-import TeamImg5 from "../../assets/TeamMembers/indu.jpg";
+import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
 import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
-import TeamImg8 from "../../assets/TeamMembers/indu.jpg";
-import TeamImg9 from "../../assets/TeamMembers/indu.jpg";
+import TeamImg8 from "../../assets/TeamMembers/rishitha.jpg";
+
 
 const Team = () => {
   return (
@@ -64,10 +64,10 @@ const Team = () => {
 
           <Box>
             <Typography className="pt-2 font-semibold font-poppins text-lg">
-              Sisindri Singamsetti
+              S Gnana Sekhar
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Co-Founder
+              Founder
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
@@ -112,7 +112,7 @@ const Team = () => {
 
           <Box>
             <Typography className="pt-2 font-semibold font-poppins text-lg">
-              K Gnana Sekhar
+              Sisindri sigamsetti
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
               Co-Founder
@@ -401,7 +401,7 @@ const Team = () => {
 
           <Box>
             <Typography className="pt-2 font-semibold font-poppins text-lg">
-              K Sri Chaithanya
+              Yousuf
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
               Web Developer

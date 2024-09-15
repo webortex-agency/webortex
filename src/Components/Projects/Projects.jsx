@@ -1,7 +1,8 @@
 import React from "react";
 import WEB2 from "../../assets/Projects/Team_Garuda.png";
 import WEB1 from "../../assets/Projects/64Framez.png";
-import WEB3 from "../../assets/About/img3.png";
+import WEB3 from "../../assets/Projects/yestelugu.jpg";
+import WEB4 from "../../assets/Projects/synapsis.jpg";
 import { Container, Typography } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -108,7 +109,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center md:justify-between mt-16 md:mt-36">
           <div className="w-2/3 md:w-1/2 lg:w-2/5 p-3 sm:p-2 lg:p-0 self-center">
             <img
-              src={WEB2}
+              src={WEB3}
               alt="YesTelugu"
               className="rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 w-full h-auto"
             />
@@ -166,7 +167,7 @@ const Projects = () => {
           </div>
           <div className="w-2/3 md:w-1/2 lg:w-2/5 p-3 sm:p-2 lg:p-0 self-center order-0 md:order-1">
             <img
-              src={WEB2}
+              src={WEB4}
               alt="Synaipsys"
               className="rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 w-full h-auto"
             />
