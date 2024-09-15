@@ -9,17 +9,17 @@ import {
 } from "@mui/material";
 import { Handshake } from "@mui/icons-material";
 import Insta from "../../assets/Social/instagram.png";
-import fb from "../../assets/Social/facebook.png";
 import x from "../../assets/Social/twitter.png";
+import github from "../../assets/Social/github.png";
+import linkedin from "../../assets/Social/linkedin.png";
 import TeamImg2 from "../../assets/TeamMembers/sisi.jpg";
-import TeamImg1 from "../../assets/TeamMembers/gnanaa.jpg";
-import TeamImg3 from "../../assets/TeamMembers/pavan.jpg";
+import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
+import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
 import TeamImg4 from "../../assets/TeamMembers/rishitha.jpg";
 import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
 import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
-import TeamImg8 from "../../assets/TeamMembers/rishitha.jpg";
-
+import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
 const Team = () => {
   return (
@@ -71,27 +71,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
+            <IconButton>
+              <Link href="https://github.com/gnanaofficial">
+                <img src={github} alt="GitHub" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="">
+                <img src={linkedin} alt="LinkedIn" width={25}></img>
+              </Link>
+            </IconButton>
+
             <IconButton>
               <Link href="https://www.instagram.com/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
-            <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
+
             <IconButton>
               <Link href="https://x.com/?lang=en">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 01 */}
@@ -112,34 +114,36 @@ const Team = () => {
 
           <Box>
             <Typography className="pt-2 font-semibold font-poppins text-lg">
-              Sisindri sigamsetti
+              Sisindri Sigamsetti
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
               Co-Founder
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 02 */}
@@ -167,27 +171,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 03 */}
@@ -215,27 +221,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 04 */}
@@ -263,27 +271,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 05 */}
@@ -311,27 +321,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 06 */}
@@ -359,27 +371,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 06 */}
@@ -408,27 +422,29 @@ const Team = () => {
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
-            {/* {teamMember.insta != "" ? ( */}
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://github.com/sisi-tarak">
+                <img src={github} alt="Instagram" width={23}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.linkedin.com/in/sisitarak">
+                <img src={linkedin} alt="FaceBook" width={25}></img>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href="https://www.instagram.com/sisi_tarakk/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.fb != "" ? ( */}
+
             <IconButton>
-              <Link href="https://www.facebook.com/">
-                <img src={fb} alt="FaceBook" width={20}></img>
-              </Link>
-            </IconButton>
-            {/* ) : null} */}
-            {/* {teamMember.x != "" ? ( */}
-            <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/sisi_tarak">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
-            {/* ) : null} */}
           </Box>
         </div>
         {/* Team Member 09 */}

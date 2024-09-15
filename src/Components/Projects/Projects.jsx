@@ -22,7 +22,7 @@ const Projects = () => {
       <Typography className="text-2xl sm:text-4xl md:text-3xl lg:text-5xl text-headColor font-poppins font-semibold">
         Projects
       </Typography>
-      <div maxWidth="lg" className="">
+      <div className="">
         <div className="flex flex-wrap justify-center md:justify-between">
           <div className="w-2/3 md:w-1/2 lg:w-2/5 p-3 sm:p-2 lg:p-0 self-center">
             <img
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
 
             <div className="mt-6 flex flex-col md:flex-row md:justify-start justify-center">
-              <Link to={"https://teamgaruda.com/"}>
+              <Link to={"https://teamgaruda.com/"} className="mx-auto md:mx-0">
                 <button className="bg-[#2D2D2D] mx-auto md:mx-0 text-white md:mr-6 text-xs sm:text-sm lg:text-base px-8 py-3 rounded-lg transform transition-all duration-500 ease-in-out hover:bg-headColor hover:text-backgroundColor">
                   View Project
                 </button>
@@ -84,7 +84,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="mt-6 flex flex-col md:flex-row md:justify-start justify-center">
-              <Link to={"https://github.com/webortex-agency/WE080724X001.git"}>
+              <Link
+                to={"https://github.com/webortex-agency/WE080724X001.git"}
+                className="mx-auto md:mx-0"
+              >
                 <button className="bg-[#2D2D2D] mx-auto md:mx-0 text-white md:mr-6 text-xs sm:text-sm lg:text-base px-8 py-3 rounded-lg transform transition-all duration-500 ease-in-out hover:bg-headColor hover:text-backgroundColor">
                   View Project
                 </button>
@@ -98,7 +101,8 @@ const Projects = () => {
             </div>
           </div>
           <div className="w-2/3 md:w-1/2 lg:w-2/5 p-3 sm:p-2 lg:p-0 self-center order-0 md:order-1">
-            <img style={{border:"2px solid #2D2D2D"}}
+            <img
+              style={{ border: "2px solid #2D2D2D" }}
               src={WEB1}
               alt="64 Framez"
               className="rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 w-full h-auto"
@@ -152,7 +156,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="mt-6 flex flex-col md:flex-row md:justify-start justify-center">
-              <Link to={"https://synaipsys.com/"}>
+              <Link to={"https://synaipsys.com/"} className="mx-auto md:mx-0">
                 <button className="bg-[#2D2D2D] mx-auto md:mx-0 text-white md:mr-6 text-xs sm:text-sm lg:text-base px-8 py-3 rounded-lg transform transition-all duration-500 ease-in-out hover:bg-headColor hover:text-backgroundColor">
                   View Project
                 </button>

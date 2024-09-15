@@ -1,15 +1,19 @@
 import "./styles.css";
 import { motion } from "framer-motion";
 import { Box, Grid, IconButton, Link, Typography } from "@mui/material";
-import Insta from "../../assets/Social/instagram.png";
-import fb from "../../assets/Social/facebook.png";
-import x from "../../assets/Social/twitter.png";
 import { Handshake } from "@mui/icons-material";
-import teamMember1 from "../../assets/TeamMembers/sisi.jpg";
-import teamMember2 from "../../assets/TeamMembers/gnana.jpeg";
-import teamMember5 from "../../assets/TeamMembers/rishitha.jpg";
-import teamMember6 from "../../assets/TeamMembers/rishitha.jpg";
-import teamMember7 from "../../assets/TeamMembers/revanth.jpg";
+import Insta from "../../assets/Social/instagram.png";
+import x from "../../assets/Social/twitter.png";
+import github from "../../assets/Social/github.png";
+import linkedin from "../../assets/Social/linkedin.png";
+import TeamImg2 from "../../assets/TeamMembers/sisi.jpg";
+import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
+import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
+import TeamImg4 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
+import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
+import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
 const cardVariants = {
   offscreen: {
@@ -68,8 +72,81 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember1}
+              src={TeamImg1}
               alt="team-mem-1"
+              className="rounded-t-lg"
+              style={{
+                height: "220px",
+                width: "100%",
+                objectFit: "cover",
+              }}
+            />
+            <Grid
+              sx={{
+                border: "2px solid #5956E8",
+                marginTop: 2,
+                marginLeft: "30%",
+                marginRight: "30%",
+                borderRadius: "10px",
+                backgroundColor: "#5956E8",
+              }}
+            ></Grid>
+            <Box>
+              <Typography className="pt-2 font-bold font-poppins">
+                S Gnana Sekhar
+              </Typography>
+              <Typography className="text-base font-poppins text-[#555555]">
+                Founder
+              </Typography>
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
+              <IconButton>
+                <Link href="https://github.com/gnanaofficial">
+                  <img src={github} alt="GitHub" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="">
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/">
+                  <img src={Insta} alt="Instagram" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://x.com/?lang=en">
+                  <img src={x} alt="twitter" width={20}></img>
+                </Link>
+              </IconButton>
+            </Box>
+          </div>
+        </motion.div>
+      </motion.div>
+
+      {/* Team Member 2 */}
+      <motion.div
+        className="card-container"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        <div
+          className="splash"
+          style={{
+            background:
+              "linear-gradient(306deg, hsl(20, 100%, 50%), hsl(40, 100%, 50%))",
+          }}
+        />
+        <motion.div className="card" variants={cardVariants}>
+          <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
+            <img
+              src={TeamImg2}
+              alt="team-mem-2"
               className="rounded-t-lg"
               style={{
                 height: "220px",
@@ -97,83 +174,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
-                  <img src={Insta} alt="Instagram" width={25}></img>
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
                 </Link>
               </IconButton>
-              <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
-                </Link>
-              </IconButton>
-            </Box>
-          </div>
-        </motion.div>
-      </motion.div>
 
-      {/* Team Member 2 */}
-      <motion.div
-        className="card-container"
-        initial="offscreen"
-        whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
-      >
-        <div
-          className="splash"
-          style={{
-            background:
-              "linear-gradient(306deg, hsl(20, 100%, 50%), hsl(40, 100%, 50%))",
-          }}
-        />
-        <motion.div className="card" variants={cardVariants}>
-          <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
-            <img
-              src={teamMember2}
-              alt="team-mem-2"
-              className="rounded-t-lg"
-              style={{
-                height: "220px",
-                width: "100%",
-                objectFit: "cover",
-              }}
-            />
-            <Grid
-              sx={{
-                border: "2px solid #5956E8",
-                marginTop: 2,
-                marginLeft: "30%",
-                marginRight: "30%",
-                borderRadius: "10px",
-                backgroundColor: "#5956E8",
-              }}
-            ></Grid>
-            <Box>
-              <Typography className="pt-2 font-bold font-poppins">
-                K Gnana Sekhar
-              </Typography>
-              <Typography className="text-base font-poppins text-[#555555]">
-                Co-Founder
-              </Typography>
-            </Box>
-            <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -198,7 +218,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember7}
+              src={TeamImg3}
               alt="team-mem-3"
               className="rounded-t-lg"
               style={{
@@ -227,18 +247,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -263,7 +291,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember1}
+              src={TeamImg4}
               alt="team-mem-4"
               className="rounded-t-lg"
               style={{
@@ -292,18 +320,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -328,7 +364,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember5}
+              src={TeamImg5}
               alt="team-mem-5"
               className="rounded-t-lg"
               style={{
@@ -357,18 +393,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -393,7 +437,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember6}
+              src={TeamImg6}
               alt="team-mem-6"
               className="rounded-t-lg"
               style={{
@@ -422,18 +466,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -458,7 +510,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember7}
+              src={TeamImg7}
               alt="team-mem-7"
               className="rounded-t-lg"
               style={{
@@ -487,18 +539,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>
@@ -523,7 +583,7 @@ const TeamMobile = () => {
         <motion.div className="card" variants={cardVariants}>
           <div className="bg-headColor font-poppins p-6 text-center mt-1 cursor-pointer rounded-3xl hover:bg-gradient-to-tr from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] transition-all duration-500 ease-in-out w-full">
             <img
-              src={teamMember6}
+              src={TeamImg8}
               alt="team-mem-8"
               className="rounded-t-lg"
               style={{
@@ -552,18 +612,26 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://github.com/sisi-tarak">
+                  <img src={github} alt="Instagram" width={23}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.linkedin.com/in/sisitarak">
+                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                </Link>
+              </IconButton>
+
+              <IconButton>
+                <Link href="https://www.instagram.com/sisi_tarakk/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
+
               <IconButton>
-                <Link href="https://www.facebook.com/">
-                  <img src={fb} alt="Facebook" width={20}></img>
-                </Link>
-              </IconButton>
-              <IconButton>
-                <Link href="https://x.com/?lang=en">
-                  <img src={x} alt="Twitter" width={20}></img>
+                <Link href="https://x.com/sisi_tarak">
+                  <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
             </Box>

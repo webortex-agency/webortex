@@ -14,7 +14,7 @@ const ScrollToTop = () => {
   useEffect(() => {
     const toggleVisibility = () => {
       const scrolled = window.scrollY;
-      
+
       if (scrolled > 50) {
         setIsVisible(true);
       } else {
@@ -37,7 +37,7 @@ const ScrollToTop = () => {
   return (
     <>
       <Box
-        className={`fixed right-6 bottom-6 z-[9999] bg-navlinkActiveColor w-12 h-12 p-auto rounded-full flex align-middle justify-center cursor-pointer transition-all duration-300 ${
+        className={`fixed right-6 bottom-6 z-[9999] bg-iconBgColor w-12 h-12 p-auto rounded-full flex align-middle justify-center cursor-pointer transition-all duration-300 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
         onClick={scrollToTop}

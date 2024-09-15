@@ -48,11 +48,11 @@ const HomePage = () => {
   };
 
   return (
-    <div className=" m-0 p-0" id="home">
+    <div className="m-0 p-0" id="home">
       <Box className="flex justify-center">
         <Container
           maxWidth="lg"
-          className="self-center mt-0 md:mt-0 lg:my-8 pt-0 pb-5 xs:py-10 md:pt-0 md:pb-0 lg:py-10"
+          className="self-center mt-0 md:my-10 lg:my-8 pt-0 pb-5 xs:py-10 md:pt-0 md:pb-0 lg:py-10 xl:my-44"
         >
           <Box className="">
             <div className="flex md:flex-row flex-col-reverse justify-center gap-0 xs:gap-2 md:gap-4 px-10">
@@ -74,7 +74,7 @@ const HomePage = () => {
                 <div className="flex flex-col md:flex-row my-5 lg:my-8 gap-3 md:gap-4 lg:gap-5 ">
                   <Button
                     variant="contained"
-                    className="text-buttonTextColor bg-buttonBgColor py-1 px-4 sm:py-2 sm:px-6 md:py-3 md:px-8  hover:bg-navlinkActiveColor hover:text-headColor rounded-lg font-semibold h-12 mx-auto md:mx-0 text-sm md:text-xs lg:text-sm"
+                    className="text-buttonTextColor bg-buttonBgColor py-1 px-4 sm:py-2 sm:px-6 md:py-3 md:px-8  hover:bg-navlinkActiveColor  rounded-lg font-semibold h-12 mx-auto md:mx-0 text-sm md:text-xs lg:text-sm"
                     sx={{ transition: ".4s ease-in-out" }}
                     onClick={handleLetsTalkClick}
                   >
@@ -99,8 +99,7 @@ const HomePage = () => {
                 <Avatar
                   alt="64 FRAMEZ"
                   src={coverImg}
-                  sx={{ zIndex: "-1 !important" }}
-                  className="w-full h-full scale-125  sm:scale-100 lg:scale-[130%] xl:scale-[150%]"
+                  className="w-full h-full sm:scale-100 md:scale-[125%] lg:scale-[130%] xl:scale-[150%]"
                 ></Avatar>
                 {/* <Box className="w-[156px] sm:w-[464px] md:w-[664px] lg:w-full  h-[586px] md:h-[362px] lg:h-[542px] lg:max-h-full top-0 md:left-[100px] lg:left-0 blur-[90px] 2xl:blur-[150px] absolute z-[-99] opacity-80 2xl:bg-opacity-55 rounded-full bg-gradient-to-r from-backgroundColor from-10%  via-[#f087ff5b] via-85% to-backgroundColor to-10%"></Box> */}
               </div>

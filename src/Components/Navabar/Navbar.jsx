@@ -126,12 +126,12 @@ const Navbar = () => {
     >
       <div className="mt-3 md:mt-5 pt-2 md:flex md:justify-center">
         <div className={navbarClasses} style={{ zIndex: 999 }}>
-          <Toolbar className="align-middle">
+          <Toolbar className="align-middle mx-7">
             <Link to="/" className="mr-12">
               <Avatar
                 alt="64 FRAMEZ"
                 src={logoImg}
-                className="rounded-none w-[30%] h-auto ml-7"
+                className="rounded-none w-[30%] h-auto"
                 onClick={scrollToTop}
               />
             </Link>
@@ -161,7 +161,7 @@ const Navbar = () => {
 
                 <Button
                   variant="contained"
-                  className="text-buttonTextColor bg-buttonBgColor py-1 px-4 sm:py-2 sm:px-6 md:py-3 md:px-6 hover:bg-navlinkActiveColor hover:text-headColor rounded-lg font-semibold h-10 mx-auto md:mx-0 text-sm md:text-xs lg:text-sm text-nowrap"
+                  className="text-buttonTextColor bg-buttonBgColor py-1 px-4 sm:py-2 sm:px-6 md:py-3 md:px-6 hover:bg-navlinkActiveColor  rounded-lg font-semibold h-10 mx-auto md:mx-0 text-sm md:text-xs lg:text-sm text-nowrap"
                   sx={{ transition: ".3s ease-in-out" }}
                   onClick={handleLetsTalkClick}
                 >
