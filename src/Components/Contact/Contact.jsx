@@ -341,8 +341,8 @@ const Contact = () => {
               }}
             >
               <Grid
-                xs={8}
-                sm={5}
+                xs={10}
+                sm={6}
                 md={12}
                 lg={12}
                 xl={12}
@@ -357,8 +357,8 @@ const Contact = () => {
                     xl: "230px",
                   },
                   width: {
-                    xs: "50%",
-                    sm: "50%",
+                    xs: "100%",
+                    sm: "100%",
                     md: "100%",
                     lg: "100%",
                     xl: "90%",
@@ -369,10 +369,9 @@ const Contact = () => {
                 <Grid item m={3}>
                   <Typography
                     variant="h6"
-                    className="bg-[#FFDC60] text-backgroundColor"
+                    className="bg-[#FFDC60] text-backgroundColor w-[100px]"
                     sx={{
                       borderRadius: 4,
-                      width: "100px",
                       textAlign: "center",
                       fontSize: "20px",
                     }}
@@ -441,8 +440,8 @@ const Contact = () => {
                 </Grid>
               </Grid>
               <Grid
-                xs={8}
-                sm={5}
+                xs={10}
+                sm={6}
                 md={12}
                 lg={12}
                 xl={12}

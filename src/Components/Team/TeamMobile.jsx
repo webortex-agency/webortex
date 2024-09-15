@@ -107,19 +107,19 @@ const TeamMobile = () => {
               </IconButton>
 
               <IconButton>
-                <Link href="">
+                <Link href="https://www.linkedin.com/in/gnana-sekhar-2b942b29b">
                   <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/">
+                <Link href="https://www.instagram.com/gnanaofficial">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/?lang=en">
+                <Link href="https://x.com/gnanaofficial">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -247,25 +247,25 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
+                <Link href="https://github.com/Maritot">
                   <img src={github} alt="Instagram" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
+                <Link href="https://www.linkedin.com/in/tharunavula">
                   <img src={linkedin} alt="FaceBook" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/sisi_tarakk/">
+                <Link href="https://www.instagram.com/tharrrrun">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/tharrrun">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -603,14 +603,14 @@ const TeamMobile = () => {
               }}
             ></Grid>
             <Box>
-              <Typography className="pt-2 font-bold font-poppins">
-                K Sri Chaithanya
+              <Typography className="pt-2 font-semibold font-poppins text-lg">
+                Yousuf
               </Typography>
-              <Typography className="text-base font-poppins text-[#555555]">
-                Web Designer
+              <Typography className="text-sm font-poppins text-[#555555] font-normal">
+                Web Developer
               </Typography>
             </Box>
-            <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
+            <Box className="justify-self-center mt-2">
               <IconButton>
                 <Link href="https://github.com/sisi-tarak">
                   <img src={github} alt="Instagram" width={23}></img>

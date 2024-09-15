@@ -17,7 +17,7 @@ import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
 import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
 import TeamImg4 from "../../assets/TeamMembers/rishitha.jpg";
 import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
-import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg6 from "../../assets/TeamMembers/ashok.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
 import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
@@ -78,19 +78,19 @@ const Team = () => {
             </IconButton>
 
             <IconButton>
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/gnana-sekhar-2b942b29b">
                 <img src={linkedin} alt="LinkedIn" width={25}></img>
               </Link>
             </IconButton>
 
             <IconButton>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://www.instagram.com/gnanaofficial">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
 
             <IconButton>
-              <Link href="https://x.com/?lang=en">
+              <Link href="https://x.com/gnanaofficial">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>
@@ -172,25 +172,25 @@ const Team = () => {
           </Box>
           <Box className="justify-self-center mt-2">
             <IconButton>
-              <Link href="https://github.com/sisi-tarak">
+              <Link href="https://github.com/Maritot">
                 <img src={github} alt="Instagram" width={23}></img>
               </Link>
             </IconButton>
 
             <IconButton>
-              <Link href="https://www.linkedin.com/in/sisitarak">
+              <Link href="https://www.linkedin.com/in/tharunavula">
                 <img src={linkedin} alt="FaceBook" width={25}></img>
               </Link>
             </IconButton>
 
             <IconButton>
-              <Link href="https://www.instagram.com/sisi_tarakk/">
+              <Link href="https://www.instagram.com/tharrrrun">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
 
             <IconButton>
-              <Link href="https://x.com/sisi_tarak">
+              <Link href="https://x.com/tharrrun">
                 <img src={x} alt="twitter" width={20}></img>
               </Link>
             </IconButton>

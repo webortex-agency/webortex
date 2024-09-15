@@ -127,7 +127,7 @@ const Navbar = () => {
       <div className="mt-3 md:mt-5 pt-2 md:flex md:justify-center">
         <div className={navbarClasses} style={{ zIndex: 999 }}>
           <Toolbar className="align-middle mx-7">
-            <Link to="/" className="mr-12">
+            <Link to="/" className="md:mr-12">
               <Avatar
                 alt="64 FRAMEZ"
                 src={logoImg}

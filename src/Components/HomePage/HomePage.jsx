@@ -95,11 +95,11 @@ const HomePage = () => {
                   </CustomButton>
                 </div>
               </div>
-              <div className="grid-rows-12 md:grid-rows-6 text-center px-3 pt-6 sm:pt-6 md:pt-0">
+              <div className="grid-rows-12 md:grid-rows-6 text-center px-3 pt-6 pb-10 md:pb-0 sm:pt-6 md:pt-0">
                 <Avatar
                   alt="64 FRAMEZ"
                   src={coverImg}
-                  className="w-full h-full sm:scale-100 md:scale-[125%] lg:scale-[130%] xl:scale-[150%]"
+                  className="w-full h-full scale-125 sm:scale-100 md:scale-[125%] lg:scale-[130%] xl:scale-[150%]"
                 ></Avatar>
                 {/* <Box className="w-[156px] sm:w-[464px] md:w-[664px] lg:w-full  h-[586px] md:h-[362px] lg:h-[542px] lg:max-h-full top-0 md:left-[100px] lg:left-0 blur-[90px] 2xl:blur-[150px] absolute z-[-99] opacity-80 2xl:bg-opacity-55 rounded-full bg-gradient-to-r from-backgroundColor from-10%  via-[#f087ff5b] via-85% to-backgroundColor to-10%"></Box> */}
               </div>
