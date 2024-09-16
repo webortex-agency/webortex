@@ -23,7 +23,7 @@ import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
 const Team = () => {
   return (
-    <Container className="pt-16 pb-20">
+    <Container className="pt-16 pb-20" id="team">
       <Grid container className="flex flex-col items-center">
         <Handshake
           sx={{ fontSize: 35 }}
@@ -167,7 +167,7 @@ const Team = () => {
               A Tharun
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Creative Director
+              Chief Executive
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
@@ -217,7 +217,7 @@ const Team = () => {
               Jayadeep Reddy
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Project Manager
+              Chief Technical
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
@@ -267,7 +267,7 @@ const Team = () => {
               K Sai Sandeep
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Creative Director
+              Chief Operater
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
@@ -317,7 +317,7 @@ const Team = () => {
               Ashok
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Creative Director
+              Chief Marketer
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">
@@ -367,7 +367,7 @@ const Team = () => {
               Y Revanth Kumar
             </Typography>
             <Typography className="text-sm font-poppins text-[#555555] font-normal">
-              Creative Director
+              Project Manager
             </Typography>
           </Box>
           <Box className="justify-self-center mt-2">

@@ -11,7 +11,7 @@ import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
 import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
 import TeamImg4 from "../../assets/TeamMembers/jaydeep.jpg";
 import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
-import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg6 from "../../assets/TeamMembers/ashok.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
 import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
@@ -32,7 +32,7 @@ const cardVariants = {
 
 const TeamMobile = () => {
   return (
-    <div style={{ marginBottom: "150px" }}>
+    <div style={{ marginBottom: "150px" }} id="team">
       <Grid container className="flex flex-col items-center">
         <Handshake
           sx={{ fontSize: 35 }}
@@ -242,7 +242,7 @@ const TeamMobile = () => {
                 A Tharun
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
-                Creative Director
+                Chief Executive
               </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
@@ -315,7 +315,7 @@ const TeamMobile = () => {
                 Jayadeep Reddy
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
-                Project Manager
+                Chief Technical
               </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
@@ -388,7 +388,7 @@ const TeamMobile = () => {
                 K Sai Sandeep
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
-                Creative Director
+                Chief Operater
               </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
@@ -461,7 +461,7 @@ const TeamMobile = () => {
                 Ashok
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
-                Creative Director
+                Chief Marketer
               </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
@@ -534,7 +534,7 @@ const TeamMobile = () => {
                 Y Revanth Kumar
               </Typography>
               <Typography className="text-base font-poppins text-[#555555]">
-                Creative Director
+                Project Manager
               </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
