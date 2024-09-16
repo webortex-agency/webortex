@@ -15,9 +15,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const CustomizedDrawer = styled(Drawer)(({ theme }) => ({
   ".css-4t3x6l-MuiPaper-root-MuiDrawer-paper": {
-    backgroundColor: "#171717;",
+    backgroundColor: "#171717 !important",
     width: "80%",
-    height: "40%",
+    height: "50%",
   },
   ".css-h4y409-MuiList-root": {
     display: "flex",

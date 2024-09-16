@@ -435,7 +435,7 @@ const Contact = () => {
                       },
                     }}
                   >
-                    nextlevel@marketing.com
+                    contact@webortex.com
                   </Typography>
                 </Grid>
               </Grid>
@@ -503,6 +503,7 @@ const Contact = () => {
                     Phone
                   </Typography>
                   <Typography
+                    className="flex justify-start flex-col"
                     sx={{
                       color: "#C0BEBE",
                       marginLeft: {
@@ -528,7 +529,8 @@ const Contact = () => {
                       },
                     }}
                   >
-                    +91 8888884565
+                    <span> +91 9502414128 </span>
+                    <span> +91 86882 81821 </span>
                   </Typography>
                 </Grid>
               </Grid>

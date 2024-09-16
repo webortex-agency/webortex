@@ -9,7 +9,7 @@ import linkedin from "../../assets/Social/linkedin.png";
 import TeamImg2 from "../../assets/TeamMembers/sisi.jpg";
 import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
 import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
-import TeamImg4 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg4 from "../../assets/TeamMembers/jaydeep.jpg";
 import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
 import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
@@ -175,13 +175,13 @@ const TeamMobile = () => {
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
                 <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
                 <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
@@ -248,13 +248,13 @@ const TeamMobile = () => {
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
                 <Link href="https://github.com/Maritot">
-                  <img src={github} alt="Instagram" width={23}></img>
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
                 <Link href="https://www.linkedin.com/in/tharunavula">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
@@ -320,25 +320,25 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                <Link href="https://github.com/JAYADEEPREDDYPEDDIREDDY">
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                <Link href="https://www.linkedin.com/in/peddireddy-jayadeep-reddy-a3014124b">
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/sisi_tarakk/">
+                <Link href="https://www.instagram.com/deepu_">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/JAYADEEPRE45047">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -393,14 +393,14 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                <Link href="https://github.com/Sandeep010-hub">
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                <Link href="https://www.linkedin.com/in/sai-sandeep-kalagatla-655416243/">
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
@@ -411,7 +411,7 @@ const TeamMobile = () => {
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/SaiSandeep0241">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -466,25 +466,25 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                <Link href="https://github.com/ashokq">
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                <Link href="https://www.linkedin.com/in/ashok-pemeram-1856721aa/">
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/sisi_tarakk/">
+                <Link href="https://www.instagram.com/ashok_3_96/">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/ashokpemeram">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -540,13 +540,13 @@ const TeamMobile = () => {
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
                 <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
                 <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
@@ -612,25 +612,25 @@ const TeamMobile = () => {
             </Box>
             <Box className="justify-self-center mt-2">
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
-                  <img src={github} alt="Instagram" width={23}></img>
+                <Link href="https://github.com/Yousuf-36">
+                  <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
-                  <img src={linkedin} alt="FaceBook" width={25}></img>
+                <Link href="https://www.linkedin.com/in/shaik-mohammed-yousuf-90bb34290">
+                  <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/sisi_tarakk/">
+                <Link href="https://www.instagram.com/.you.suf.">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/checking_feed">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
