@@ -5,13 +5,13 @@ import {
   Container,
   createTheme,
   Grid,
+  Link,
   TextField,
   ThemeProvider,
   Typography,
   Snackbar,
   Alert,
 } from "@mui/material";
-import { Link, useLocation } from "react-router-dom";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import FilterNoneOutlinedIcon from "@mui/icons-material/FilterNoneOutlined";
@@ -19,87 +19,58 @@ import CampaignOutlinedIcon from "@mui/icons-material/CampaignOutlined";
 import footerLogo from "../../assets/Webortexlogo2.png";
 import emailjs from "@emailjs/browser";
 
+const PageLinks = [
+  {
+    name: "Home",
+    source: "#",
+  },
+  {
+    name: "Services",
+    source: "#",
+  },
+  {
+    name: "Projects",
+    source: "#",
+  },
+  {
+    name: "Team",
+    source: "#",
+  },
+  {
+    name: "About",
+    source: "#",
+  },
+];
+
+const SocialLinks = [
+  {
+    name: "Facebook",
+    source: "#",
+  },
+  {
+    name: "Instagram",
+    source: "#",
+  },
+  {
+    name: "Twitter",
+    source: "#",
+  },
+  {
+    name: "LinkedIn",
+    source: "#",
+  },
+  {
+    name: "Pinterest",
+    source: "#",
+  },
+];
+
 const Footer = () => {
-  const [value, setValue] = useState();
   const [message, setMessage] = useState("");
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [errors, setErrors] = useState({});
-  const location = useLocation();
   const form = useRef();
-
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId.substring(1));
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const handleNavigation = (PageLink) => {
-    if (PageLink.type === "section") {
-      if (location.pathname !== "/") {
-        navigate("/");
-        setTimeout(() => scrollToSection(PageLink.path), 100);
-      } else {
-        scrollToSection(PageLink.path);
-      }
-    } else {
-      navigate(PageLink.path);
-    }
-  };
-
-  const PageLinks = [
-    {
-      id: 1,
-      name: "Services",
-      path: "#services",
-      type: "section",
-    },
-    {
-      id: 2,
-      name: "Projects",
-      path: "#projects",
-      type: "section",
-    },
-    {
-      id: 3,
-      name: "Team",
-      path: "#team",
-      type: "section",
-    },
-    {
-      id: 4,
-      name: "SIP",
-      path: "/sip",
-      type: "route",
-    },
-    {
-      id: 5,
-      name: "Contact",
-      path: "#contact",
-      type: "section",
-    },
-  ];
-
-  const SocialLinks = [
-    {
-      name: "GitHub",
-      source: "https://github.com/webortex-agency",
-    },
-    {
-      name: "LinkedIn",
-      source: "#",
-    },
-    {
-      name: "Instagram",
-      source: "https://www.instagram.com/webortex/",
-    },
-    {
-      name: "Twitter",
-      source: "https://x.com/webortex",
-    },
-  ];
-
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
@@ -393,16 +364,14 @@ const Footer = () => {
                     </span>
                     Pages
                   </Typography>
-                  <Box
-                    className="flex flex-col pl-8 pt-4 gap-1"
-                    onChange={(e, value) => setValue(value)}
-                  >
+                  <Box className="flex flex-col pl-8 pt-4 gap-1">
                     {PageLinks.map((PageLink, index) => (
                       <Link
                         key={index}
                         variant="body1"
-                        className="font-poppins text-sm sm:text-base md:text-sm lg:text-base cursor-pointer text-headColor hover:text-textColor transition-all duration-300 ease-in-out"
-                        onClick={() => handleNavigation(PageLink)}
+                        className="font-poppins text-sm sm:text-base md:text-sm lg:text-base"
+                        href={PageLink.source}
+                        style={{ color: "white" }}
                       >
                         {PageLink.name}
                       </Link>
@@ -413,6 +382,7 @@ const Footer = () => {
                   <Typography
                     variant="h6"
                     className="font-poppins text-headColor text-base sm:text-lg md:text-base lg:text-xl font-normal"
+                    style={{ color: "white" }}
                   >
                     <span className="pe-2" style={{ color: "#42E052" }}>
                       <CampaignOutlinedIcon />
@@ -424,8 +394,9 @@ const Footer = () => {
                       <Link
                         key={index}
                         variant="body1"
-                        className="font-poppins text-sm sm:text-base md:text-sm lg:text-base cursor-pointer text-headColor hover:text-textColor transition-all duration-300 ease-in-out"
-                        to={SocialLink.source}
+                        className="font-poppins text-sm sm:text-base md:text-sm lg:text-base"
+                        href={SocialLink.source}
+                        style={{ color: "white" }}
                       >
                         {SocialLink.name}
                       </Link>
