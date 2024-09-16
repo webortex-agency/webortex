@@ -284,7 +284,7 @@ const Team = () => {
             </IconButton>
 
             <IconButton>
-              <Link href="https://www.instagram.com/sisi_tarakk/">
+              <Link href="https://www.instagram.com/mad_maxie921/">
                 <img src={Insta} alt="Instagram" width={25}></img>
               </Link>
             </IconButton>
