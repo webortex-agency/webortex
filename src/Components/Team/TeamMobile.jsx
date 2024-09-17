@@ -539,25 +539,25 @@ const TeamMobile = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", padding: 2 }}>
               <IconButton>
-                <Link href="https://github.com/sisi-tarak">
+                <Link href="https://github.com/RevanthkumarYallanuru">
                   <img src={github} alt="GitHub" width={23}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.linkedin.com/in/sisitarak">
+                <Link href="https://www.linkedin.com/in/revanth-kumar-434488329">
                   <img src={linkedin} alt="LinkedIn" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://www.instagram.com/sisi_tarakk/">
+                <Link href="https://www.instagram.com/revanth_kumar_yallanuru">
                   <img src={Insta} alt="Instagram" width={25}></img>
                 </Link>
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/sisi_tarak">
+                <Link href="https://x.com/Revanth103">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
@@ -630,7 +630,7 @@ const TeamMobile = () => {
               </IconButton>
 
               <IconButton>
-                <Link href="https://x.com/checking_feed">
+                <Link href="https://x.com/yousuf_feed">
                   <img src={x} alt="twitter" width={20}></img>
                 </Link>
               </IconButton>
