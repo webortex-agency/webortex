@@ -310,7 +310,7 @@ const Footer = () => {
                 <Grid item className="flex flex-col gap-3">
                   <Typography
                     variant="h6"
-                    className="font-poppins text-headColor text-base sm:text-lg md:text-base lg:text-xl font-normal"
+                    className="font-poppins text-headColor text-base sm:text-lg md:text-base lg:text-lg font-normal"
                   >
                     <span style={{ color: "#42E052" }}>
                       <LocalPhoneOutlinedIcon />
@@ -351,7 +351,7 @@ const Footer = () => {
                   <Typography
                     variant="h6"
                     style={{ color: "white" }}
-                    className="font-poppins text-headColor text-base sm:text-lg md:text-base lg:text-xl font-normal"
+                    className="font-poppins text-headColor text-base sm:text-lg md:text-base lg:text-lg font-normal"
                   >
                     <span style={{ color: "#FFDC60" }}>
                       <LocationOnOutlinedIcon />
