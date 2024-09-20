@@ -16,7 +16,7 @@ import DrawerComp from "./DrawerComp";
 
 const CustomTabs = styled(Tabs)(({ theme }) => ({
   "& .css-1aquho2-MuiTabs-indicator": {
-    backgroundColor: "#009dda",
+    display: "none",
   },
 }));
 
