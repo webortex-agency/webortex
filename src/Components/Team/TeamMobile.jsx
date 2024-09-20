@@ -11,7 +11,7 @@ import TeamImg1 from "../../assets/TeamMembers/gnana.jpg";
 import TeamImg3 from "../../assets/TeamMembers/tharun.jpg";
 import TeamImg4 from "../../assets/TeamMembers/jaydeep.jpg";
 import TeamImg5 from "../../assets/TeamMembers/sandeep.jpg";
-import TeamImg6 from "../../assets/TeamMembers/rishitha.jpg";
+import TeamImg6 from "../../assets/TeamMembers/ashok.jpg";
 import TeamImg7 from "../../assets/TeamMembers/revanth.jpg";
 import TeamImg8 from "../../assets/TeamMembers/yusuf.jpg";
 
